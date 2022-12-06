@@ -1,4 +1,4 @@
-static void LoginWEB2(string user)
+static void LoginWEB2()
             {
                 try
                 {
