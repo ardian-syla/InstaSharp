@@ -7,6 +7,11 @@ Follow users, scrape their info throught c# code
 # Login
 This code below shows how to login on instagram throught c#
 ```csharp
+/* Option 2 to login to only 1 account
+static void LoginWEB2(string Username, string Password)
+then we remove foreach and splited username & password,
+we modify string Data as example string Data = $"username={Username}&enc_password=#PWD_INSTAGRAM_BROWSER:0:1589682409:{Password}";
+*/
 static void LoginWEB2()
             {
                 try
