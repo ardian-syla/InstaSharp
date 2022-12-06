@@ -7,7 +7,7 @@ Follow users, scrape their info throught c# code
 # Login
 This code below shows how to login on instagram throught c#
 ```csharp
-static void LoginWEB2(string user)
+static void LoginWEB2()
             {
                 try
                 {
